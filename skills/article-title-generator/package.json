@@ -1,0 +1,28 @@
+{
+  "name": "article-title-generator",
+  "version": "1.0.0",
+  "description": "Generate engaging article titles for WeChat public accounts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "article",
+    "title",
+    "wechat",
+    "content",
+    "marketing",
+    "generator"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/claude-skills.git",
+    "directory": "skills/article-title-generator"
+  }
+}

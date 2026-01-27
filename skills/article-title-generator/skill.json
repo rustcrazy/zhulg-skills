@@ -1,0 +1,26 @@
+{
+  "name": "article-title-generator",
+  "description": "Generate engaging article titles for WeChat public accounts",
+  "version": "1.0.0",
+  "author": "Claude",
+  "main": "index.js",
+  "commands": [
+    {
+      "name": "/generate-titles",
+      "description": "Generate 10+ engaging article titles from text input or markdown files",
+      "usage": "/generate-titles [content|file] [input]",
+      "examples": [
+        "/generate-titles content \"Your article content here...\"",
+        "/generate-titles file /path/to/article.md"
+      ]
+    }
+  ],
+  "dependencies": {},
+  "keywords": [
+    "article",
+    "title",
+    "wechat",
+    "content",
+    "marketing"
+  ]
+}
