@@ -10,12 +10,12 @@ tags:
   - content
   - marketing
 commands:
-  - name: /generate-titles
+  - name: /article-title-generator
     description: Generate 10+ engaging article titles from text input or markdown files
-    usage: /generate-titles [content|file] [input]
+    usage: /article-title-generator [content|file] [input]
     examples:
-      - "/generate-titles content 'Here is your article content about AI technology...'"
-      - "/generate-titles file /path/to/article.md"
+      - "/article-title-generator content 'Here is your article content about AI technology...'"
+      - "/article-title-generator file /path/to/article.md"
 ---
 
 # Article Title Generator
@@ -36,10 +36,10 @@ A Claude skill to generate engaging, attention-grabbing article titles specifica
 
 ```bash
 # Generate titles from text content
-/generate-titles content "Your article content here..."
+/article-title-generator content "Your article content here..."
 
 # Generate titles from a markdown file
-/generate-titles file /path/to/article.md
+/article-title-generator file /path/to/article.md
 ```
 
 ### Command Options

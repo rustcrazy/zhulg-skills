@@ -6,12 +6,12 @@
   "main": "index.js",
   "commands": [
     {
-      "name": "/generate-titles",
+      "name": "/article-title-generator",
       "description": "Generate 10+ engaging article titles from text input or markdown files",
-      "usage": "/generate-titles [content|file] [input]",
+      "usage": "/article-title-generator [content|file] [input]",
       "examples": [
-        "/generate-titles content \"Your article content here...\"",
-        "/generate-titles file /path/to/article.md"
+        "/article-title-generator content \"Your article content here...\"",
+        "/article-title-generator file /path/to/article.md"
       ]
     }
   ],
