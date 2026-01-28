@@ -29,8 +29,10 @@
 ├── skills/
 │   └── article-title-generator/    # 微信公众号标题生成器
 │       ├── SKILL.md                # Skill 定义与详细文档
-│       ├── index.js                # 核心逻辑
-│       └── ...
+│       ├── skill.json              # Skill 配置文件
+│       ├── scripts/                # 核心逻辑与脚本 (index.js, etc.)
+│       ├── examples/               # 示例文件与参考资料
+│       └── docs/                   # 说明文档 (QUICKSTART.md, etc.)
 └── README.md                       # 本文档
 ```
 
@@ -39,7 +41,7 @@
 这些 Skill 设计用于 Claude。你可以通过以下方式使用：
 
 1. 确保你已经在支持 Skill 的环境中加载了此项目。
-2. 使用对应的斜杠命令（例如 `/generate-titles`）即可调用。
+2. 使用对应的斜杠命令（例如 `/article-title-generator`）即可调用。
 
 ---
 

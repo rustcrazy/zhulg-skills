@@ -2,9 +2,9 @@
   "name": "article-title-generator",
   "version": "1.0.0",
   "description": "Generate engaging article titles for WeChat public accounts",
-  "main": "index.js",
+  "main": "scripts/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node scripts/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
