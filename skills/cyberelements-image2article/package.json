@@ -1,0 +1,31 @@
+{
+  "name": "cyberelements-image2article",
+  "version": "1.0.0",
+  "description": "Generate articles from images by analyzing workspace elements with AI Native workflow",
+  "main": "scripts/index.js",
+  "scripts": {
+    "start": "node scripts/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "article",
+    "workspace",
+    "desk-setup",
+    "technology",
+    "office",
+    "student",
+    "decor",
+    "productivity",
+    "cyberelements",
+    "ai-native"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

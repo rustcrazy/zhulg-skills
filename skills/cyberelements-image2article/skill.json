@@ -1,0 +1,57 @@
+{
+  "name": "cyberelements-image2article",
+  "description": "Generate articles from images by analyzing workspace elements and writing tech-focused content for college students, new employees, and office workers about workspace setup and decoration using AI Native vision capabilities.",
+  "version": "1.0.0",
+  "author": "Claude",
+  "main": "scripts/index.js",
+  "commands": [
+    {
+      "name": "/cyberelements-image2article",
+      "description": "Generate an article from an image of workspace setup, analyzing elements like computer, monitor, desk, lamp, plants, etc.",
+      "usage": "/cyberelements-image2article [image|url] [path_or_url] [audience] [options]",
+      "options": [
+        {
+          "name": "audience",
+          "type": "string",
+          "description": "Target audience: 'student', 'newbie', 'employee'",
+          "required": false,
+          "default": "employee"
+        },
+        {
+          "name": "style",
+          "type": "string",
+          "description": "Writing style: 'tech', 'artistic', 'balanced'",
+          "required": false,
+          "default": "balanced"
+        },
+        {
+          "name": "length",
+          "type": "string",
+          "description": "Article length: 'short', 'medium', 'long'",
+          "required": false,
+          "default": "medium"
+        }
+      ],
+      "examples": [
+        "/cyberelements-image2article image examples/desk-setup.jpg audience student",
+        "/cyberelements-image2article url https://example.com/desk-setup.jpg audience newbie style tech",
+        "/cyberelements-image2article image examples/desk-setup.jpg audience employee length long"
+      ]
+    }
+  ],
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "image",
+    "article",
+    "workspace",
+    "desk-setup",
+    "technology",
+    "office",
+    "student",
+    "decor",
+    "productivity",
+    "ai-native"
+  ]
+}
