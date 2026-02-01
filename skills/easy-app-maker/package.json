@@ -1,0 +1,25 @@
+{
+    "name": "easy-app-maker",
+    "version": "1.0.0",
+    "description": "一站式应用制作平台，专为非程序员设计。支持 Web 应用、H5 页面、智能文档、聊天机器人和内容创作",
+    "main": "scripts/index.js",
+    "scripts": {
+        "start": "node scripts/index.js"
+    },
+    "keywords": [
+        "nocode",
+        "app-maker",
+        "web-development",
+        "h5-page",
+        "document-generator",
+        "chatbot",
+        "content-creation",
+        "beginner-friendly"
+    ],
+    "author": "Claude",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {}
+}

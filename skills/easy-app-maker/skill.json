@@ -1,0 +1,53 @@
+{
+    "name": "easy-app-maker",
+    "description": "一站式应用制作平台，专为非程序员设计。支持创建 Web 应用、H5 页面、智能文档、聊天机器人和内容创作工具",
+    "version": "1.0.0",
+    "author": "Claude",
+    "main": "scripts/index.js",
+    "commands": [
+        {
+            "name": "/easy-app-maker",
+            "description": "为非程序员提供的一站式应用制作工具，支持 5 大应用方向",
+            "usage": "/easy-app-maker [category] [type] [options]",
+            "options": [
+                {
+                    "name": "category",
+                    "type": "string",
+                    "description": "应用方向: 'web', 'h5', 'document', 'chatbot', 'content'",
+                    "required": false
+                },
+                {
+                    "name": "type",
+                    "type": "string",
+                    "description": "具体类型（根据 category 不同而不同）",
+                    "required": false
+                },
+                {
+                    "name": "theme",
+                    "type": "string",
+                    "description": "设计主题: 'modern', 'vibrant', 'minimal', 'warm', 'tech', 'festive', 'elegant'",
+                    "required": false,
+                    "default": "modern"
+                }
+            ],
+            "examples": [
+                "/easy-app-maker web form",
+                "/easy-app-maker h5 activity theme festive",
+                "/easy-app-maker document report data sales.csv",
+                "/easy-app-maker chatbot knowledge faq.md",
+                "/easy-app-maker content social platform xiaohongshu"
+            ]
+        }
+    ],
+    "keywords": [
+        "nocode",
+        "app-maker",
+        "beginner",
+        "web-app",
+        "h5-page",
+        "document-generator",
+        "chatbot",
+        "content-creation",
+        "non-programmer"
+    ]
+}
